@@ -79,11 +79,10 @@ body {
 }
 
 .display-area {
-  background-image: url("ucup/images/background.png");
+  background-image: url('ucup/images/background.png');
   background-size: cover;
   background-repeat: repeat;
   position: relative;
-  background-color: #2a5200;
   min-height: 84vh !important;
   position: relative;
 }
@@ -150,7 +149,6 @@ body {
 #bar {
   background-image: url('/ucup/images/bar.png');
 }
-
 
 #character {
   z-index: 100;
