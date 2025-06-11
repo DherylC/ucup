@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: #fff8bf;
+}
+
+.card {
+  display: block;
+  max-width: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.login {
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  margin : 0 auto;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-text {
+  background-color: #ffb269;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+
+}
+
+.card:hover {
+  background-color: antiquewhite;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.text-huge {
+  font-size: 128px;
+}
+
+.text-big {
+  font-size: 96px;
+}
+
+.charselect {
+  max-width: 20vw;
+}
+
+.place {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.display-area {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: repeat;
+  position: relative;
+  background-color: #2a5200;
+  min-height: 84vh !important;
+  position: relative;
+}
+
+.login-bg {
+  background-image: url('/images/start-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-light-tp {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-dark-tp {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#house {
+  background-image: url('/images/house.png');
+}
+
+#restaurant-1 {
+  background-image: url('/images/restaurant.png');
+}
+
+#restaurant-2 {
+  background-image: url('/images/restaurant2.png');
+}
+
+#restaurant-3 {
+  background-image: url('/images/restaurant3.png');
+}
+
+#office {
+  background-image: url('/images/office.png');
+}
+
+#park {
+  background-image: url('/images/park.png');
+}
+
+#gym {
+  background-image: url('/images/gym.png');
+}
+
+#hospital {
+  background-image: url('/images/hospital.png');
+}
+
+#casino {
+  background-image: url('/images/casino.png');
+}
+
+#arcade {
+  background-image: url('/images/arcade.png');
+}
+
+#bar {
+  background-image: url('/images/bar.png');
+}
+
+#character {
+  z-index: 100;
+}
