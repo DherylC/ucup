@@ -89,7 +89,7 @@ body {
 }
 
 .login-bg {
-  background-image: url('/images/start-background.jpg');
+  background-image: url('./images/start-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -108,47 +108,47 @@ body {
 }
 
 #house {
-  background-image: url('/images/house.png');
+  background-image: url('./images/house.png');
 }
 
 #restaurant-1 {
-  background-image: url('/images/restaurant.png');
+  background-image: url('./images/restaurant.png');
 }
 
 #restaurant-2 {
-  background-image: url('/images/restaurant2.png');
+  background-image: url('./images/restaurant2.png');
 }
 
 #restaurant-3 {
-  background-image: url('/images/restaurant3.png');
+  background-image: url('./images/restaurant3.png');
 }
 
 #office {
-  background-image: url('/images/office.png');
+  background-image: url('./images/office.png');
 }
 
 #park {
-  background-image: url('/images/park.png');
+  background-image: url('./images/park.png');
 }
 
 #gym {
-  background-image: url('/images/gym.png');
+  background-image: url('./images/gym.png');
 }
 
 #hospital {
-  background-image: url('/images/hospital.png');
+  background-image: url('./images/hospital.png');
 }
 
 #casino {
-  background-image: url('/images/casino.png');
+  background-image: url('./images/casino.png');
 }
 
 #arcade {
-  background-image: url('/images/arcade.png');
+  background-image: url('./images/arcade.png');
 }
 
 #bar {
-  background-image: url('/images/bar.png');
+  background-image: url('./images/bar.png');
 }
 
 #character {
